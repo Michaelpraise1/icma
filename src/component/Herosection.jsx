@@ -24,18 +24,18 @@ const Herosection = () => {
             <Link to="/" smooth={true} duration={500}>
               <li className="text-gray-400 hover:text-purple-600 ">Home</li>
             </Link>
-            <Link to="fundraising" smooth={true} duration={500}>
+            <Link to="/fundraising" smooth={true} duration={500}>
             <li className="text-gray-400 hover:text-purple-600 ">Fundraising</li>
             </Link>
-            <Link to="ma" smooth={true} duration={500}>
+            <Link to="/ma" smooth={true} duration={500}>
               <li className="text-gray-400 hover:text-purple-600 ">M&A</li>
             </Link>
             
-            <Link to="forinvestor" smooth={true} duration={500}>
+            <Link to="/forinvestor" smooth={true} duration={500}>
               <li className="text-gray-400 hover:text-purple-600 ">For investor</li>
             </Link>
             
-            <Link to="contact" smooth={true} duration={500}>
+            <Link to="/contact" smooth={true} duration={500}>
               <li className="text-gray-400 hover:text-purple-600 ">Contact</li>
             </Link>
           </ul>
@@ -73,23 +73,23 @@ const Herosection = () => {
                 Home
               </li>
               </Link>
-              <Link to="fundraising">
+              <Link to="/fundraising">
                 <li className="text-gray-400 hover:text-white  border-b-2 border-white px-6 py-2">
                 Fundraising
               </li>
               </Link>
-              <Link to="ma">
+              <Link to="/ma">
               <li className="text-gray-400 hover:text-white  border-b-2 border-white px-6 py-2">
                 M&A
               </li>
               </Link>
-              <Link to="forinvestor" smooth={true} duration={500}>
+              <Link to="/forinvestor" smooth={true} duration={500}>
               <li className="text-gray-400 hover:text-white  border-b-2 border-white px-6 py-2">
                 For investor
               </li>
               </Link>
 
-              <Link to="contact" smooth={true} duration={500}>
+              <Link to="/contact" smooth={true} duration={500}>
                 <li className="text-gray-400 hover:text-white  border-b-2 border-white px-6 py-2">
                Contact
               </li>

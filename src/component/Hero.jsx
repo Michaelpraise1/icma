@@ -12,13 +12,13 @@ const Hero = () => {
           </h1>
           
           <div className="mt-10 space-x-3 flex items-center justify-center">
-            <Link to="contact" smooth={true} duration={500}>
+            <Link to="/contact" smooth={true} duration={500}>
               <button className="px-10 lg:py-4 py-2 bg-purple-600 hover:text-purple-600 hover:bg-white font-semibold">
               Get in Touch
             </button>
             </Link>
             
-            <Link to="aboutus" smooth={true} duration={500}>
+            <Link to="/aboutus" smooth={true} duration={500}>
             <button className="ring-1 px-10 lg:py-4 py-2 font-semibold hover:text-purple-600 hover:bg-white">
               About Us
             </button>
