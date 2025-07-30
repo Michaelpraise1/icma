@@ -17,7 +17,7 @@ const MA = () => {
     </section>
     <div className='bg-[#22272a] '>
       <div className='flex  items-center justify-center bg-[#22272a] h-[30vh] px-4  z-10 space-y-4 pt-3 pb-1 '>
-        <p className='text-white text-center space-y-4 mb-7 mt-3'>
+        <p className='text-white text-center space-y-4 mb-10 mt-10'>
           VC investments often require follow-up financing or an exit. For example, selling to a strategic partner can stimulate growth or create synergies, icma help identify investors and facilitate transactions, with services such as developing a communications strategy, approaching, and managing the process. Our managing partner requests a plan selection and a refundable deposit, which serves as retainer for registration and introductions during the agreement.
         </p>
       </div>
