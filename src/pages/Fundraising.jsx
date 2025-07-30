@@ -16,7 +16,7 @@ const Fundraising = () => {
         </h1>
     </section>
     <section>
-      <div className='flex flex-col items-center justify-center bg-[#22272a] px-4   
+      <div className='flex flex-col  items-center justify-center bg-[#22272a] px-4   
         bg-opacity-90 z-10 space-y-10 pt-3 pb-3'>
         <p className='text-white text-center'>
           Businesses need capital to grow, but fundraising takes up a lot of your time! Outsourcing investor search and outreach streamlines the process, allowing entrepreneurs to concentrate and managing core business operations, our capital-raising partner requests a plan selection and a refundable deposit, which serves as retainer for registration and introductions during the agreement.
