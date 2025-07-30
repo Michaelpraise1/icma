@@ -7,7 +7,7 @@ const Merger = () => {
     <>
     
       <section id="fundraising" className="px-10 py-20 bg-[#22272a] ">
-        <hr className="mb-5" />
+        
         {/* <h1 className="text-5xl mb-8 font-bold">Services</h1> */}
 
         <div>

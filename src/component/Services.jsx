@@ -2,8 +2,8 @@ import ServiceProps from "./ServiceProps";
 
 const Services = () => {
   return (
-    <section id="service" className="px-10 py-20 bg-[#22272a] ">
-      <hr className="mb-5" />
+    <section id="service" className=" lg:px-10 py-20 bg-[#22272a] ">
+      
       {/* <h1 className="text-5xl mb-8 font-bold">Services</h1> */}
 
       <div>

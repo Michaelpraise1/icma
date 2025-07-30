@@ -6,10 +6,10 @@ import { SiYoutube } from "react-icons/si";
 const Footer = () => {
   return (
     <footer className="  h-fit  pb-0">
-      <div className=" bg-white w-full h-full flex justify-center items-center px-10 py-10 border-b-[1px] border-white gap-20 ">
+      <div className=" bg-white w-full h-full lg:flex space-y-2 justify-center items-center px-10 py-10 border-b-[1px] border-white gap-20 ">
         <div className="space-y-1 text-black flex flex-col items-center ">
           {" "}
-          <h1 className="text-2xl font-bold   ">
+          <h1 className=" lg:text-2xl font-bold   ">
             Our Office
           </h1>
           <p>ICMA Fundación</p>
@@ -20,7 +20,7 @@ const Footer = () => {
         </div>
         <div className="flex text-black flex-col items-center ">
             {" "}
-            <h1 className="font-semibold text-2xl">Contact Us</h1>
+            <h1 className="font-semibold lg:text-2xl">Contact Us</h1>
             <a className="  underline" href="#">
               info@icma.fund
             </a>
