@@ -2,7 +2,7 @@ import "./App.css";
 import Contact from "./pages/Contact";
 import Fundraising from "./pages/Fundraising";
 import Homepage from "./pages/Homepage";
-import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import MA from "./pages/MA";
 import Aboutus from "./pages/Aboutus";
 import ForInvestor from "./pages/ForInvestor";
@@ -11,7 +11,7 @@ import ForInvestor from "./pages/ForInvestor";
 function App() {
   return (
     <div>
-      <BrowserRouter basename="/icma">
+    
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/contact" element={<Contact />} />
@@ -20,7 +20,7 @@ function App() {
         <Route path="/aboutus" element={<Aboutus />} />
         <Route path="/forinvestor" element={<ForInvestor />} />
       </Routes>
-      </BrowserRouter>
+     
     </div>
 
   
