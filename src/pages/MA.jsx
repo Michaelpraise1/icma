@@ -12,12 +12,12 @@ const MA = () => {
     <section className="relative h-[70vh] bg-cover bg-center bg-[url('https://fundmystartup.vc/wp-content/uploads/2023/03/venture_07.jpg')] text-white">
         <div className=" z-0 absolute inset-0 bg-black bg-opacity-70"></div>
         <h1>
-          <span className=" absolute flex items-center justify-center lg:left-[38%] left-[20%] bottom-10 lg:text-5xl text-3xl font-bold  text-white">MERGER & ACQUISITIONS </span>
+          <span className=" absolute flex items-center justify-center lg:left-[38%] left-[20%] bottom-14 lg:text-5xl text-3xl font-bold  text-white">MERGER & ACQUISITIONS </span>
         </h1>
     </section>
-    <div className='bg-[#22272a]'>
-      <div className='flex  items-center justify-center bg-[#22272a] h-[30vh] px-4  z-10 space-y-2 pt-3 pb-1 '>
-        <p className='text-white text-center space-y-1'>
+    <div className='bg-[#22272a] '>
+      <div className='flex  items-center justify-center bg-[#22272a] h-[30vh] px-4  z-10 space-y-4 pt-3 pb-1 '>
+        <p className='text-white text-center space-y-4 mb-7 mt-3'>
           VC investments often require follow-up financing or an exit. For example, selling to a strategic partner can stimulate growth or create synergies, icma help identify investors and facilitate transactions, with services such as developing a communications strategy, approaching, and managing the process. Our managing partner requests a plan selection and a refundable deposit, which serves as retainer for registration and introductions during the agreement.
         </p>
       </div>
