@@ -12,11 +12,11 @@ const Fundraising = () => {
     <section className="relative h-[70vh] bg-cover bg-center bg-[url('https://fundmystartup.vc/wp-content/uploads/2023/03/venture_15.jpg')] text-white">
         <div className=" z-0 absolute inset-0 bg-black bg-opacity-70"></div>
         <h1>
-          <span className=" absolute flex items-center justify-center lg:left-[38%] left-[22%] bottom-10 text-5xl font-bold  text-white">FUNDRAISING </span>
+          <span className=" absolute flex items-center justify-center lg:left-[38%] left-[19%] bottom-10 text-5xl font-bold  text-white">FUNDRAISING </span>
         </h1>
     </section>
     <section>
-      <div className='flex flex-col  items-center justify-center bg-[#22272a] px-4   
+      <div className='flex flex-col items-center justify-center bg-[#22272a] px-4   
         bg-opacity-90 z-10 space-y-10 pt-3 pb-3'>
         <p className='text-white text-center'>
           Businesses need capital to grow, but fundraising takes up a lot of your time! Outsourcing investor search and outreach streamlines the process, allowing entrepreneurs to concentrate and managing core business operations, our capital-raising partner requests a plan selection and a refundable deposit, which serves as retainer for registration and introductions during the agreement.
