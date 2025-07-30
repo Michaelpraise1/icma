@@ -6,16 +6,16 @@ const ForInvestor = () => {
   return (
     <>
     <Herosection/>
-     <section className="relative h-[70vh] bg-cover bg-center bg-[url('https://fundmystartup.vc/wp-content/uploads/2023/06/image-1.png')] text-white">
+     <section className="relative h-[30vh] bg-cover bg-center bg-[url('https://fundmystartup.vc/wp-content/uploads/2023/06/image-1.png')] text-white">
         <div className=" z-0 absolute inset-0 bg-black bg-opacity-70"></div>
         <h1>
-          <span className=" absolute flex items-center justify-center lg:left-[40%] left-[23%] bottom-10 text-4xl font-bold  text-white">INVESTORS </span>
+          <span className=" absolute inset-0 flex justify-center items-center lg:text-4xl text-3xl font-bold  text-white">INVESTORS </span>
         </h1>
     </section>
     <section className=" flex flex-col items-center  px-10 py-20 space-y-10 bg-[#22272a] text-white">
       <h1 className='text-3xl font-bold text-center'>Join Our Network of Esteemed Investors</h1>
       <div className='flex flex-col items-center space-y-3'>
-        <h2 className='text-2xl font-semibold text center '>Become a member for free</h2>
+        <h2 className='text-2xl font-semibold text-center '>Become a member for free</h2>
         <h2 className='text-2xl font-semibold text-center'>More than 200 investors have gone before you</h2>
         <p className='text-center'>At ICMA, we understand the value of investment opportunities that meet investor criteria. We take on projects with entrepreneurs that typically have a track record and where the project has shown traction and is in a scaling phase. Exceptionally we sometimes show pre-revenue opportunities in case we find the credentials strong enough for investors. The investment size ranges typically from EUR 1 million up to series A.</p>
         <p className='text-center'>If you're an investor seeking deals that have met our criteria of investment, which include founders team experience, track record, traction and potential for growth or scalability. </p>

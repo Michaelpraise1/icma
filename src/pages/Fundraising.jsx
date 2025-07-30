@@ -9,10 +9,10 @@ const Fundraising = () => {
   return (
    <>
     <Herosection/>
-    <section className="relative h-[70vh] bg-cover bg-center bg-[url('https://fundmystartup.vc/wp-content/uploads/2023/03/venture_15.jpg')] text-white">
+    <section className="relative h-[30vh] bg-cover bg-center bg-[url('https://fundmystartup.vc/wp-content/uploads/2023/03/venture_15.jpg')] text-white">
         <div className=" z-0 absolute inset-0 bg-black bg-opacity-70"></div>
         <h1>
-          <span className=" absolute flex items-center justify-center lg:left-[38%] left-[19%] bottom-10 text-5xl font-bold  text-white">FUNDRAISING </span>
+          <span className=" absolute inset-0 flex justify-center items-center lg:text-5xl text-3xl font-bold  text-white">FUNDRAISING </span>
         </h1>
     </section>
     <section>
