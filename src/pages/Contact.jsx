@@ -107,7 +107,7 @@ const Contact = () => {
           {/* <p className={Styles.sectionSubText}>Get in touch</p> */}
         <h3 className='text-2xl font-bold mt-10 ml-2'>Contact Me</h3>
 
-        <form ref={formRef} onSubmit={handleSubmit} className="mt-10 bg-blend-overlay flex flex-col gap-8">
+        <form ref={formRef} onSubmit={handleSubmit} className="mt-10 bg-blend-overlay ml-20 flex flex-col gap-8">
           <InputField
             label="Your Name"
             name="name"
