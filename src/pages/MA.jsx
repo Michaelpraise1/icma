@@ -10,7 +10,7 @@ const MA = () => {
   return (
     <>
     <Herosection/>
-    <section className="relative h-[30vh] bg-cover bg-center bg-[url('https://fundmystartup.vc/wp-content/uploads/2023/03/venture_07.jpg')] text-white">
+    <section className="relative h-[60vh] bg-cover bg-center bg-[url('https://fundmystartup.vc/wp-content/uploads/2023/03/venture_07.jpg')] text-white">
         <div className=" z-0 absolute inset-0 bg-black bg-opacity-70"></div>
         <h1>
           <span className="absolute inset-0 flex justify-center items-center lg:text-5xl text-3xl font-bold text-center  text-white">MERGER <br/> & <br/> ACQUISITIONS </span>

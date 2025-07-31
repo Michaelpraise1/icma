@@ -7,7 +7,7 @@ const ForInvestor = () => {
   return (
     <>
     <Herosection/>
-     <section className="relative h-[30vh] bg-cover bg-center bg-[url('https://fundmystartup.vc/wp-content/uploads/2023/06/image-1.png')] text-white">
+     <section className="relative h-[60vh] bg-cover bg-center bg-[url('https://fundmystartup.vc/wp-content/uploads/2023/06/image-1.png')] text-white">
         <div className=" z-0 absolute inset-0 bg-black bg-opacity-70"></div>
         <h1>
           <span className=" absolute inset-0 flex justify-center items-center lg:text-4xl text-3xl font-bold  text-white">INVESTORS </span>
@@ -23,7 +23,7 @@ const ForInvestor = () => {
       </div>
       <div className='flex flex-col items-center space-y-3'>
         <h2 className='text-2xl font-semibold'>Our Promise</h2>
-        <p>As a member of our investor network, you can expect:</p>
+        <p className='text-center'>As a member of our investor network, you can expect:</p>
 
         <h2 className='text-xl text-center font-semibold'>Curated and tailored Opportunities:</h2>
         <p className='text-center'>We will bring you investment opportunities that fit your preferred industry, phase of business, and geographical area. These opportunities are always curated and checked by our team.</p>
