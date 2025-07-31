@@ -1,6 +1,7 @@
 import React from 'react'
 import Herosection from '../component/Herosection';
 import Footer from '../component/Footer';
+import Bottom from '../component/bottom';
 
 const ForInvestor = () => {
   return (
@@ -35,6 +36,7 @@ const ForInvestor = () => {
       </div>
     </section>
     <Footer/>
+    <Bottom/>
     </>
   )
 }

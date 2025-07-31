@@ -7,6 +7,7 @@ import Stat from "../component/Stat";
 import { FloatButton } from "antd";
 import Weem from "../component/Weem";
 import Hero from "../component/Hero";
+import Bottom from "../component/bottom";
 
 const Homepage = () => {
   return (
@@ -18,7 +19,8 @@ const Homepage = () => {
       <Weem/>
       <Stat />
       {/* <Testimonials /> */}
-      <Footer />
+      {/* <Footer /> */}
+      <Bottom/>
       <FloatButton.BackTop />
     </div>
   );

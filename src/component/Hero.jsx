@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
-    <section className="relative h-screen bg-cover bg-center bg-[url('./assets/image_fx.jpg')] text-white">
+    <section className="relative h-screen bg-cover bg-center bg-[url('./assets/Homepage.jpg')] text-white">
       <div className=" z-0 absolute inset-0 bg-black bg-opacity-70"></div>
     <section className="relative z-10 text-white flex flex-col items-center justify-center h-full">
         <div className="text-center w-[60%]">

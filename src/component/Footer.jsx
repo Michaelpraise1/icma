@@ -31,9 +31,7 @@ const Footer = () => {
         </div> */}
       </div>
 
-      <div className=" bg-[#22272a] container  text-center">
-        <p>&copy; {new Date().getFullYear()} ICMA Fundación. All rights reserved.</p>
-      </div>
+    
     </footer>
   );
 };

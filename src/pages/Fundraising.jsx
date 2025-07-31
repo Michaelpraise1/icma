@@ -4,6 +4,7 @@ import FundraisingSec from '../component/FundraisingSec'
 import Footer from '../component/Footer'
 import StatsCom from '../component/StatsCom'
 import { Link } from 'react-router-dom'
+import Bottom from '../component/bottom'
 
 const Fundraising = () => {
   return (
@@ -26,7 +27,7 @@ const Fundraising = () => {
       <div className='flex flex-col items-center justify-center bg-[#22272a] px-4   
         bg-opacity-90 z-10 space-y-3 pt-3 pb-3'>
         <h1 className='text-2xl font-semibold  text-white'>Field of Work</h1>
-        <p className='text-white text-center'>Our service is available in Norway, Denmark, Sweden, Iceland, Ireland, Scotland, Isle of Man, Guernsey, Jersey, Malta, Cyprus, Germany, Austria, Switzerland, Liechtenstein, Luxembourg, Andorra, Finland, and Monaco.</p>
+        <p className='text-white text-center'>Our service is available in Norway, Denmark, Sweden, Iceland, Ireland, Scotland, Isle of Man, Guernsey, Jersey, Malta, Cyprus, Germany, Austria, Liechtenstein, Luxembourg, Andorra, Finland, and Monaco.</p>
         <Link to="contact" smooth={true} duration={500}>
         <button className="ring-1 px-10 lg:py-5 py-2  font-semibold hover:text-purple-600 hover:bg-white">
               Learn more
@@ -38,6 +39,7 @@ const Fundraising = () => {
     <FundraisingSec/>
     <StatsCom/>
     <Footer/>
+    <Bottom/>
    </>
 
 

@@ -1,9 +1,10 @@
 import React, { useRef } from 'react';
 import { useState } from 'react';
-import { Styles } from '../Styles';
+
 import emailjs from "@emailjs/browser";
 import Footer from '../component/Footer';
 import Herosection from '../component/Herosection';
+import Bottom from '../component/bottom';
 
 const InputField = ({ label, value, onChange, placeholder, name, type }) => (
   <label className="flex flex-col">
@@ -100,14 +101,16 @@ const Contact = () => {
   return (
     <>
     <Herosection/>
-     <div className={`xl:mt-20 flex xl:flex-row  h-[90vh] flex-col-reverse gap-10 overflow-hidden relative  bg-cover bg-center bg-[url('https://fundmystartup.vc/wp-content/uploads/2023/03/venture_05.jpg')]`}>
+     <section className={`xl:mt-20 flex xl:flex-row  h-[100vh]  gap-3 overflow-hidden relative  bg-cover bg-center bg-[url('https://fundmystartup.vc/wp-content/uploads/2023/03/venture_05.jpg')]`}>
       <div className=" z-0 absolute inset-0 bg-black bg-opacity-70"></div>
 
         <div className='items-center absolute flex flex-col justify-center z-10 w-[50%] h-full'>
           {/* <p className={Styles.sectionSubText}>Get in touch</p> */}
-        <h3 className='text-2xl font-bold mt-10 ml-2'>Contact Me</h3>
+        <h3 className='text-2xl font-bold mt-20 ml-2'>Contact Form</h3>
+        
 
-        <form ref={formRef} onSubmit={handleSubmit} className="mt-10 bg-blend-overlay ml-20 flex flex-col gap-8">
+        <form ref={formRef} onSubmit={handleSubmit} className="mt-10 bg-blend-overlay ml-20 flex flex-col lg:gap-8 gap-2 mb-4">
+          <p className='text-base '>At icma, we believe that every interaction is an opportunity to inspire change and cultivate growth within our community. Whether you’re a visionary entrepreneur, investor, or a curious explorer, we invite you to reach out and share your thoughts, ideas, or questions.</p>
           <InputField
             label="Your Name"
             name="name"
@@ -147,14 +150,38 @@ const Contact = () => {
         </form>
         </div>
         
-      {/* <div className=' h-fit border-1 rounded-3' >
-        <img className='w-full h-auto mt-60' src='https://fundmystartup.vc/wp-content/uploads/2023/03/venture_05.jpg'/>
-
-      </div> */}
       
       
-      </div>
+        <div className="absolute hidden  z-10 w-1/2 h-full lg:flex lg:flex-col space-y-2 justify-center items-center lg:right-10   border-white lg:gap-10 gap-5  ">
+          <div className="space-y-1 text-white flex flex-col items-center ">
+            {" "}
+            <h1 className=" lg:text-2xl font-bold   ">
+            Our Office
+          </h1>
+          <p>ICMA Fundación</p>
+          <p>NIF: N0305013E</p>
+          <p>Avda. Diagonal 449, 4º, </p>
+          <p>08036 Barcelona, Spain</p>
+          
+        </div>
+        <div className="flex text-white flex-col items-center ">
+            {" "}
+            <h1 className="font-semibold lg:text-2xl">Contact Us</h1>
+            <a className="  underline" href="#">
+              info@icma.fund
+            </a>
+            <a className="  underline" href="#">
+              0034 6242 55 208
+            </a>
+          </div>
+          </div>
+        
+      
+      </section>
+      <section className="bg-[#22272a] text-white lg:hidden flex flex-col  justify-center w-full">
       <Footer/>
+      </section>
+      <Bottom/>
     </>
      
   )

@@ -14,7 +14,7 @@ const Herosection = () => {
   <>
       <nav className="absolute top-0 z-20 lg:flex w-full justify-between items-center px-10 py-8 hidden bg-slate-50 ">
         <div>
-          <img className="h-10 w-15"
+          <img className="h-10 w-20"
             src={Logoone}
             alt="Logo"
           />
@@ -56,7 +56,7 @@ const Herosection = () => {
         <div
           onClick={toggleMobileNav}
           
-          className="p-3 z-[600] border-2 border-blue-800 rounded-md text-xl text-blue-800"
+          className="p-3 z-[600] border-2 border-white rounded-md text-xl text-white"
         >
           {mobilenav ? <RiCloseLargeFill /> : <RxHamburgerMenu />}
         </div>

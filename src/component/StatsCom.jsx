@@ -24,7 +24,7 @@ const StatsCom = () => {
         <div className="block p-6 bg-white rounded-lg shadow-md flex-col items-center gap-2 border-r-[1px] border-gray-400 px-16">
           <h1 className="text-6xl text-green-700">
             {" "}
-            <CountUp delay={2} end={19} duration={2.75} />
+            <CountUp delay={2} end={18} duration={2.75} />
           </h1>
           <p className="text-xl text-black">Countries</p>
         </div>
