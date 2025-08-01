@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
   return (
     <>
-       <section className="relative h-[80vh] bg-cover bg-center bg-[url('https://fundmystartup.vc/wp-content/uploads/2023/04/Andrei-Luc-1-scaled.jpg')] text-white">
+       <section className="relative h-[80vh] bg-cover bg-center bg-[url('./assets/Aboutus.jpeg')] text-white">
         <div className=" z-0 absolute inset-0 bg-black bg-opacity-70"></div>
         <h1>
           <span className=" absolute flex items-center justify-center lg:left-[40%] left-[22%] bottom-10 text-5xl font-bold  text-white">ABOUT US </span>

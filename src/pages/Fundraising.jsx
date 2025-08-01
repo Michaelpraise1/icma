@@ -1,10 +1,9 @@
 import React from 'react'
-import Herosection from '../component/Herosection'
-import FundraisingSec from '../component/FundraisingSec'
-import Footer from '../component/Footer'
-import StatsCom from '../component/StatsCom'
-import { Link } from 'react-router-dom'
-import Bottom from '../component/bottom'
+import Herosection from '../component/Herosection';
+import FundraisingSec from '../component/FundraisingSec';
+import StatsCom from '../component/StatsCom';
+import { Link } from 'react-router-dom';
+import Bottom from '../component/bottom';
 
 const Fundraising = () => {
   return (
@@ -38,7 +37,7 @@ const Fundraising = () => {
     </section>
     <FundraisingSec/>
     <StatsCom/>
-    <Footer/>
+    
     <Bottom/>
    </>
 

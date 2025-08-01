@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
-import Logoone from "../assets/Logoone.png";
+import Logooone from "../assets/Logooone.png";
 import { RiCloseLargeFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
 
@@ -14,8 +14,8 @@ const Herosection = () => {
   <>
       <nav className="absolute top-0 z-20 lg:flex w-full justify-between items-center px-10 py-8 hidden bg-slate-50 ">
         <div>
-          <img className="h-10 w-20"
-            src={Logoone}
+          <img className="h-15 w-20"
+            src={Logooone}
             alt="Logo"
           />
         </div>
@@ -32,7 +32,7 @@ const Herosection = () => {
             </Link>
             
             <Link to="/forinvestor" smooth={true} duration={500}>
-              <li className="text-gray-400 hover:text-purple-600 ">For investor</li>
+              <li className="text-gray-400 hover:text-purple-600 ">For Investor</li>
             </Link>
             
             <Link to="/contact" smooth={true} duration={500}>
@@ -49,7 +49,7 @@ const Herosection = () => {
 
       <nav className="absolute top-0 z-20 flex w-full justify-between items-center px-5 py-4 lg:selection:hidden lg:hidden">
         <img className="h-13 w-12"
-          src={Logoone}
+          src={Logooone}
           alt="Logo"
         />
 
@@ -85,7 +85,7 @@ const Herosection = () => {
               </Link>
               <Link to="/forinvestor" smooth={true} duration={500}>
               <li className="text-gray-400 hover:text-white  border-b-2 border-white px-6 py-2">
-                For investor
+                Investor
               </li>
               </Link>
 

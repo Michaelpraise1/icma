@@ -1,6 +1,6 @@
 import React from 'react'
 import Herosection from '../component/Herosection';
-import Footer from '../component/Footer';
+
 import Bottom from '../component/bottom';
 
 const ForInvestor = () => {
@@ -35,7 +35,7 @@ const ForInvestor = () => {
         <p className='text-center'>Our team stands for transparency, honesty, and integrity. We work tirelessly to create meaningful relationships between investors and startups.</p>
       </div>
     </section>
-    <Footer/>
+    
     <Bottom/>
     </>
   )

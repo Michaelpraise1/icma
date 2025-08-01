@@ -1,10 +1,9 @@
-import React from 'react'
-import Herosection from '../component/Herosection'
-import Merger from '../component/Merger'
-import { Link } from 'react-router-dom'
-import Footer from '../component/Footer'
-import StatsCom from '../component/StatsCom'
-import Bottom from '../component/bottom'
+import React from 'react';
+import Herosection from '../component/Herosection';
+import Merger from '../component/Merger';
+import { Link } from 'react-router-dom';
+import StatsCom from '../component/StatsCom';
+import Bottom from '../component/bottom';
 
 const MA = () => {
   return (
@@ -56,7 +55,6 @@ const MA = () => {
 
     </section>
     <StatsCom/>
-    <Footer/>
     <Bottom/>
     </>
   )
