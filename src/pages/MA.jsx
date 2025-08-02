@@ -2,7 +2,7 @@ import React from 'react';
 import Herosection from '../component/Herosection';
 import Merger from '../component/Merger';
 import { Link } from 'react-router-dom';
-import StatsCom from '../component/StatsCom';
+
 import Bottom from '../component/bottom';
 
 const MA = () => {
@@ -54,7 +54,7 @@ const MA = () => {
       </div>
 
     </section>
-    <StatsCom/>
+    
     <Bottom/>
     </>
   )

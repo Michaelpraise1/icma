@@ -10,7 +10,7 @@ const ForInvestor = () => {
      <section className="relative h-[60vh] bg-cover bg-center bg-[url('https://fundmystartup.vc/wp-content/uploads/2023/06/image-1.png')] text-white">
         <div className=" z-0 absolute inset-0 bg-black bg-opacity-70"></div>
         <h1>
-          <span className=" absolute inset-0 flex justify-center items-center lg:text-4xl text-3xl font-bold  text-white">INVESTORS </span>
+          <span className=" absolute inset-0 flex justify-center items-center lg:text-6xl text-3xl font-bold  text-white">INVESTORS </span>
         </h1>
     </section>
     <section className=" flex flex-col items-center  px-10 py-20 space-y-10 bg-[#22272a] text-white">

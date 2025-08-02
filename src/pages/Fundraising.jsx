@@ -1,7 +1,7 @@
 import React from 'react'
 import Herosection from '../component/Herosection';
 import FundraisingSec from '../component/FundraisingSec';
-import StatsCom from '../component/StatsCom';
+
 import { Link } from 'react-router-dom';
 import Bottom from '../component/bottom';
 
@@ -12,7 +12,7 @@ const Fundraising = () => {
     <section className="relative h-[60vh] bg-cover bg-center bg-[url('https://fundmystartup.vc/wp-content/uploads/2023/03/venture_15.jpg')] text-white">
         <div className=" z-0 absolute inset-0 bg-black bg-opacity-70"></div>
         <h1>
-          <span className=" absolute inset-0 flex justify-center items-center lg:text-5xl text-3xl font-bold  text-white">FUNDRAISING </span>
+          <span className=" absolute inset-0 flex justify-center items-center lg:text-6xl text-3xl font-bold  text-white">FUNDRAISING </span>
         </h1>
     </section>
     <section>
@@ -36,7 +36,7 @@ const Fundraising = () => {
       </div>
     </section>
     <FundraisingSec/>
-    <StatsCom/>
+    
     
     <Bottom/>
    </>

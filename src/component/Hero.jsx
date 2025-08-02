@@ -7,7 +7,7 @@ const Hero = () => {
       <div className=" z-0 absolute inset-0 bg-black bg-opacity-70"></div>
     <section className="relative z-10 text-white flex flex-col items-center justify-center h-full">
         <div className="text-center w-[60%]">
-          <h1 className="lg:text-6xl font-bold leading-snug text-2xl ">
+          <h1 className="lg:text-6xl font-bold leading-snug text-3xl ">
             Icma fund raises capital and finds your perfect investors
           </h1>
           
