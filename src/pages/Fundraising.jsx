@@ -1,9 +1,8 @@
 import React from 'react'
 import Herosection from '../component/Herosection';
 import FundraisingSec from '../component/FundraisingSec';
-
 import { Link } from 'react-router-dom';
-import Bottom from '../component/bottom';
+
 
 const Fundraising = () => {
   return (
