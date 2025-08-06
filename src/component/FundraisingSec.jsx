@@ -14,7 +14,7 @@ const FundraisingSec = () => {
         <FundraisingProps
           id= "01"
           title="Consultation"
-          desc="We offer video consultations, meetings with a funding expert and/or finance professional for advice. Free appointments with specialists who can provide you with more funding details and insights."
+          desc="We offer video consultations, meetings with a funding expert and/or finance professional for advice. Free appointments with specialists who can provide you with more funding possibilities and insights."
           image="https://websitedemos.net/web-developer-04/wp-content/uploads/sites/1481/2023/07/service-01.jpg"
           />
 
@@ -39,7 +39,7 @@ const FundraisingSec = () => {
           <FundraisingProps
             id="04"
             title="Investor Outreach"
-            desc="After finalizing preparations and communication strategy, we initiate the first video call with our Swiss partner, giving you the opportunity to share your story. Our role is to facilitate introductions and observe in the background."
+            desc="After finalizing preparations and communication strategy, we arrange the first video call with our Swiss partner - founded in 1933, giving you the opportunity to share your story. Our role is to facilitate introductions and observe in the background. "
 
           />
 

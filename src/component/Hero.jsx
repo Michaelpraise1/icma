@@ -8,7 +8,7 @@ const Hero = () => {
     <section className="relative z-10 text-white flex flex-col items-center justify-center h-full">
         <div className="text-center w-[60%]">
           <h1 className="lg:text-6xl font-bold leading-snug text-3xl ">
-            Icma fund raises capital and finds your perfect investors
+           We navigate you through the funding landscape!
           </h1>
           
           <div className="mt-10 space-x-3 flex items-center justify-center">

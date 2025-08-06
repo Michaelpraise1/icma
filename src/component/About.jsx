@@ -12,11 +12,11 @@ const About = () => {
 
     <section className=" flex flex-col items-center  px-10 py-20 space-y-10 bg-[#22272a] text-white">
       <p>
-        The international capital management alliance fundación is a team of fundraising specialists built on the long-standing credibility of our members and consists of highly experienced professionals with significant collective investments across a wide range of sectors. We prioritise transparency, which is why we provide our privacy policy upon request. We take pride in guiding our clients towards the most responsible and beneficial funding solutions. 
+       The international capital management alliance fundación, statutorily established in 2010 in The Netherlands and fiscally established in Spain in cooperation with our Swiss partner, is an experienced team of fundraising specialists built on the long-standing credibility of our members and consists of highly experienced professionals with significant collective investments across a wide range of sectors. We prioritise transparency, which is why we provide our privacy policy upon request. We take pride in guiding our clients towards the most responsible and beneficial funding solutions.  
       </p>
 
       <p>
-        Our commitment to clear communication throughout the entire funding process sets us apart. That's why, after the pitch book is finalized, we operate exclusively on a "no introduction - no cost" basis. Based in Spain, The Netherlands, and (partnership) Switzerland, we understand the needs of inventors, investors, and entrepreneurs.
+       Our commitment to clear communication throughout the entire funding process sets us apart. That's why, after the pitch book is finalized, we operate exclusively on a "no introduction - no cost" basis. Icma's years of experience allow us to understand the needs of inventors, investors, and entrepreneurs.
       </p>
 
       <p>
@@ -32,4 +32,4 @@ const About = () => {
   )
 }
 
-export default About
+export default About;

@@ -9,7 +9,7 @@ const Stat = () => {
       
         <div className="flex flex-col items-center align-center justify-center pb-20">
         <h3 className="text-yellow-400 text-xl font-semibold inline-block border-b border-yellow-300 pb-1">Stats</h3>
-        <h1 className="font-semibold text-2xl text-black ">Fund My Startup in numbers</h1>
+        <h1 className="font-semibold text-2xl text-black ">ICMA in Numbers</h1>
       </div>
     <StatsCom/>
     </section>

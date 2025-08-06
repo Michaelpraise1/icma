@@ -30,7 +30,7 @@ const Merger = () => {
           <MergerProps
             id="03"
             title="Strategic Investor Outreach"
-            desc="After finalizing preparations and communication strategy, our partner initiate outreach to strategic investors. They coordinate approaches and set up strategic investor meetings, giving you the opportunity to share your story while potential strategic investors introduce themselves. Our role is to facilitate introductions and observe in the background. "
+            desc="After finalizing preparations and communication strategy, our Swiss partner - founded in 1933, initiate outreach to strategic investors. They coordinate approaches and set up strategic investor meetings, giving you the opportunity to share your story while potential strategic investors introduce themselves. Our role is to facilitate introductions and observe in the background.  "
             
           />
 
