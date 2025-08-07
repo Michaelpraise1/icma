@@ -1,1 +1,0 @@
-import{j as e}from"./index-DMPjZ1Dp.js";const r=()=>e.jsx("div",{className:" bg-[#22272a]   text-center",children:e.jsxs("p",{children:["© ",new Date().getFullYear()," ICMA Fundación. All rights reserved."]})});export{r as B};
