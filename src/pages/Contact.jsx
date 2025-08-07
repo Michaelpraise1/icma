@@ -68,16 +68,16 @@ const Contact = () => {
     emailjs
 
       .send(
-        "service_r2i0by4",
-        "template_mf5x3bh",
+        "service_huqaxxn",
+        "template_ur5vcpw",
         {
           from_name: form.name,
-          to_name: "Oluwatoyin Michael",
+          to_name: "art.keyzer@gmail.com",
           from_email: form.email,
-          to_email: "michaeloluwatoyin49@gmail.com",
+          to_email: "art.keyzer@gmail.com",
           message: form.message,
         },
-        "p-gXzzyvEhPaJ0XA-"
+        "jsCQktxz2I6MVN4Nm"
       )
       .then(
         () => {
@@ -116,7 +116,7 @@ const Contact = () => {
             name="name"
             value={form.name}
             onChange={handleChange}
-            placeholder="Insert Your name here..."
+            placeholder="Insert your name here..."
             type="text"
           />
           {nameError && <span className="text-red-500">{nameError}</span>}

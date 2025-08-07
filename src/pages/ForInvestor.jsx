@@ -33,7 +33,7 @@ const ForInvestor = () => {
         <p className='text-center'>Benefit from our 25+ years of experience in fundraising and investment banking.</p>
 
         <h2 className='text-2xl font-semibold'>Trustworthy Interactions:</h2>
-        <p className='text-center'>Our team stands for transparency, honesty, and integrity. We work tirelessly to create meaningful relationships between investors and startups.</p>
+        <p className='text-center'>Our team stands for transparency, honesty, and integrity. We work tirelessly to create meaningful relationships between investors and entrepreneurs.</p>
       </div>
       <Link to="/contact" smooth={true} duration={500}>
         <button className="ring-1 px-10 lg:py-5 py-2  font-semibold hover:text-purple-600 hover:bg-white">

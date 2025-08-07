@@ -1,5 +1,5 @@
 
-
+import React from "react";
 import Herosection from "../component/Herosection";
 import Services from "../component/Services";
 import Stat from "../component/Stat";
